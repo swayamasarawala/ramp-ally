@@ -218,3 +218,59 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Ramp additions
+# ---------------------------------------------------------------------------
+# NOTE: the Python template above ignores `lib/` and `build/` everywhere.
+# Do not name JavaScript source folders `lib`.
+
+# Node / npm
+node_modules/
+npm-debug.log*
+.npm/
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+.vercel
+
+# Vite
+dist-ssr/
+*.local
+
+# Environment files and credentials (only .env.example files are committed)
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+secrets/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Ramp API data: SQLite store and cloned job workspaces (apps/api/data/workspaces/)
+apps/api/data/
+workspaces/
+
+# Playwright / browser artifacts
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+.local-browsers/
+*.har
+*.trace.zip
+
+# OS / editor
+.DS_Store
+.idea/
